@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline-Block Element</title>
+    <style>
+      h2 {
+        /* The Block level element abey's following properties */
+        background-color: brown;
+        height: 400px;
+        padding: 50px;
+        margin: 50px;
+        /* By following property the block level element behaves like inline element */
+        /* display: inline; */
+      }
+      span {
+        background-color: purple;
+        color: white;
+        padding: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        /* The folloeing properties not obeyed by inline element */
+        /*  width: 100px;
+        height: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Inline-Block Elements</h1>
+    <hr />
+    <!-- Block Level element starts with a new line -->
+    <h2>
+      This is Block level Element Lorem ipsum, dolor sit amet consectetur
+      adipisicing elit. Et veniam excepturi adipisci. Doloremque itaque, sequi
+      officiis optio quaerat blanditiis ut. Modi facere voluptates commodi
+      itaque porro ex, rem dolorem cumque?
+    </h2>
+
+    <!-- Inline elements do not starts with a new line -->
+    <!-- It only conatins space that it requires -->
+    <span>This is Inline Element</span>
+  </body>
+</html>
